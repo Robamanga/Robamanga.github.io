@@ -1,0 +1,126 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', system-ui, sans-serif;
+    background: #f8fafc;
+    color: #0f172a;
+    padding: 40px 20px;
+    line-height: 1.6;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid blue;
+    object-fit: fill;
+
+}
+header {
+  display: flex;
+  align-items: center;
+  gap:16px;
+  background-color: white;
+  border: 1px solid #e2e8f0 ;
+  border-radius: 12px;
+  max-width: 720px;
+  margin: 0 auto 32px auto;
+  padding: 8px;
+}
+
+h1{
+  margin-bottom: -8px;
+}
+
+.cargo {
+    color: #0f172a;
+    font-size: 18px;
+
+}
+
+main {
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+/* ===Linha sobre mim=== */
+.LinhaSobre{
+    background: #fef3c7;
+    padding: 12px;
+    border-left: 4px solid #f59e0b;
+    border-radius: 6px;
+    margin-top: 12px;
+    font-weight: 500px;
+}
+
+/* ====Cada bloco vira um card==== */
+
+section {
+    background: white;
+    padding: 32px;
+    border: 1px solid #e2e8f0;
+    border-radius: 14px;
+    margin-bottom: 24px;
+}
+
+h2 {
+    color: blue;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+p {
+  margin-bottom: 12px;
+}
+
+ul {
+        padding-left: 24px;
+      }
+
+ul li {
+        margin-bottom: 8px;
+}
+
+      /* ===== Link ===== */
+      a {
+        background: #833AB4;
+        color: white;
+        text-decoration: none;
+        font-weight: 600;
+        border: none;
+        padding: 8px 12px;
+        border-radius: 8px;
+        display: inline-block;
+        margin-right: 16px;
+        margin-top: 8px;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      /* ===== Botão ===== */
+      button {
+        background: #25D366;
+        color: white;
+        border: none;
+        padding: 12px 18px;
+        font-size: 16px;
+        border-radius: 8px;
+        cursor: pointer;
+        font-family: inherit;
+        font-weight: 600;
+        margin-top: 8px;
+      }
+
+      /* ===== Rodapé ===== */
+      footer {
+        text-align: center;
+        margin-top: 48px;
+        color: #94a3b8;
+        font-size: 14px;
+      }
